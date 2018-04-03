@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">QuizAppKrunal</string>
+
+
+
+    <!-- Question 1[ CHAR LIMIT=NONE]-->
+    <string name="q1">1. What is the tallest building in Chicago?</string>
+
+    <!-- Question 2[ CHAR LIMIT=NONE]-->
+    <string name="q2">2. Which ones are Chicago teams?</string>
+
+    <!-- Question 2 OPTION 1 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option1">Chicago Bulls</string>
+
+    <!-- Question 2 OPTION 2 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option2">Chicago Bears</string>
+
+    <!-- Question 2 OPTION 3 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option3">Chicago Browns</string>
+
+    <!-- Question 2 OPTION 4 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option4">Chicago Cubs</string>
+
+    <!-- Question 2 OPTION 5 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option5">Chicago White Sox</string>
+
+    <!-- Question 2 OPTION 6 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option6">Chicago Blackhawks</string>
+
+    <!-- Question 2 OPTION 7 [ CHAR LIMIT=NONE]-->
+    <string name="q2_option7">Chicago Astros</string>
+
+
+    <!-- Question 3  [ CHAR LIMIT=NONE]-->
+    <string name="q3">3. The Worlds Columbian Exposition, held in Chicago in 1893, introduced what delicacy to the city?</string>
+
+    <!-- Question 3 OPTION 1 [ CHAR LIMIT=NONE]-->
+    <string name="q3_option1">Hot dogs</string>
+
+    <!-- Question 3 OPTION 2 [ CHAR LIMIT=NONE]-->
+    <string name="q3_option2">Pop corn</string>
+
+    <!-- Question 3 OPTION 3 [ CHAR LIMIT=NONE]-->
+    <string name="q3_option3">Pizza</string>
+
+    <!-- Question 4 [ CHAR LIMIT=NONE]-->
+    <string name="q4">4. For what phenomenon is Chicago nicknamed the Windy City?</string>
+
+    <!-- Question 4 OPTION 1[ CHAR LIMIT=NONE]-->
+    <string name="q4_option1">Wind off Lake Michigan</string>
+
+
+    <!-- Question 4 OPTION 2[ CHAR LIMIT=NONE]-->
+    <string name="q4_option2">Tall ship at Navy Pier</string>
+
+    <!-- Question 4 OPTION 3[ CHAR LIMIT=NONE]-->
+    <string name="q4_option3">Politician bluster</string>
+
+    <!-- Question 5 [ CHAR LIMIT=NONE]-->
+    <string name="q5">5. Chicago has how many miles of lakefront?</string>
+
+    <!-- Question 5 OPTION 1[ CHAR LIMIT=NONE]-->
+    <string name="q5_option1">12 miles</string>
+
+    <!-- Question 5 OPTION 2[ CHAR LIMIT=NONE]-->
+    <string name="q5_option2">22 miles</string>
+
+    <!-- Question 5 OPTION 3[ CHAR LIMIT=NONE]-->
+    <string name="q5_option3">29 miles</string>
+
+    <!-- Question 6 [ CHAR LIMIT=NONE]-->
+    <string name="q6">6. Some say the name \Chicago\ comes from a Native American term for what food?</string>
+
+
+    <!-- Question 6 OPTION 1[ CHAR LIMIT=NONE]-->
+    <string name="q6_option1">Red potato</string>
+
+    <!-- Question 6 OPTION 2[ CHAR LIMIT=NONE]-->
+    <string name="q6_option2">Wild onion</string>
+
+    <!-- Question 6 OPTION 3[ CHAR LIMIT=NONE]-->
+    <string name="q6_option3">Lake Michigan whitefish</string>
+
+    <!-- Question 7[ CHAR LIMIT=NONE]-->
+    <string name="q7">7. Chicagos Home Insurance Building is often credited as the nations first skyscraper. How tall was it when completed in 1885?</string>
+
+    <!-- Question 7 OPTION 1[ CHAR LIMIT=NONE]-->
+    <string name="q7_option1">Five stories</string>
+
+
+    <!-- Question 7 OPTION 2[ CHAR LIMIT=NONE]-->
+    <string name="q7_option2">Ten stories</string>
+
+    <!-- Question 7 OPTION 3[ CHAR LIMIT=NONE]-->
+    <string name="q7_option3">Fifteen stories</string>
+
+    <!-- SUBMIT BUTTON[ CHAR LIMIT=NONE]-->
+    <string name="submit">Submit Quiz</string>
+
+    <!-- TRY AGAIN BUTTON[ CHAR LIMIT=NONE]-->
+    <string name="try_again">Try Again</string>
+
+
+
+
+</resources>
