@@ -26,27 +26,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:text="@string/q1"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
                 android:textSize="18sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
             <EditText
                 android:id="@+id/q1_option1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="Building name only"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:textSize="18sp"
-                android:textColor="@android:color/white"/>
+                android:textStyle="bold"
+                android:textColor="@color/colorText"/>
             <View
                 android:layout_width="match_parent"
                 android:id="@+id/question_1_line"
                 android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/white"/>
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_Two"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/colorText"/>
 
         </LinearLayout>
 
@@ -56,19 +59,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/q1"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/layout_marginTop_One"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/question_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginRight="@dimen/layout_marginRight_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
                 android:text="@string/q2"
-                android:textColor="@android:color/white"
+                android:textColor="@color/colorText"
                 android:textSize="18sp" />
 
 
@@ -76,90 +80,97 @@
                 android:id="@+id/q2_option1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginTop_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option1"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
 
             <CheckBox
                 android:id="@+id/q2_option2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginLeft_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option2"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
 
             <CheckBox
                 android:id="@+id/q2_option3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginTop_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option3"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
             <CheckBox
                 android:id="@+id/q2_option4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginLeft_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option4"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
             <CheckBox
                 android:id="@+id/q2_option5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginTop_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option5"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
             <CheckBox
                 android:id="@+id/q2_option6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginLeft_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
                 android:text="@string/q2_option6"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorText"/>
 
             <CheckBox
                 android:id="@+id/q2_option7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/layout_marginTop_Two"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
                 android:paddingStart="8dp"
@@ -171,95 +182,99 @@
                 android:id="@+id/question_2_line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_Two"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
                 android:background="#FFEB3B" />
 
         </LinearLayout>
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_below="@+id/q2"
-    android:layout_height="match_parent"
-    android:layout_marginTop="16dp"
-    android:id="@+id/q3"
-    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/q2"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/layout_marginTop_One"
+            android:id="@+id/q3"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/q3"
-        android:textSize="18sp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"
-        android:textColor="@android:color/white"/>
-
-    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/question_3_choices"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-           <RadioButton
-                android:id="@+id/q3_option1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/q3_option1"
-               android:layout_marginLeft="16dp"
-               android:layout_marginStart="16dp"
-               android:layout_marginTop="8dp"
-               android:paddingLeft="8dp"
-               android:paddingRight="8dp"
-               android:paddingStart="8dp"
-               android:textSize="16sp"
-                android:onClick="onRadioButtonClicked"
-               android:textColor="@android:color/white"/>
-
-            <RadioButton android:id="@+id/q3_option2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/q3_option2"
-                android:textSize="16sp"
-                android:layout_marginLeft="16dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="@string/q3"
+                android:textSize="18sp"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginRight="@dimen/layout_marginRight_One"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
-                android:paddingStart="8dp"
-                android:onClick="onRadioButtonClicked"
-                android:textColor="@android:color/white"/>
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
+                android:textColor="@color/colorText"/>
 
-        <RadioButton android:id="@+id/q3_option3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/q3_option3"
-            android:textSize="16sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:paddingStart="8dp"
-            android:onClick="onRadioButtonClicked"
-            android:textColor="@android:color/white"/>
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/question_3_choices"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q3_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/q3_option1"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:textSize="16sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/colorText"/>
+
+                <RadioButton android:id="@+id/q3_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/q3_option2"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/colorText"/>
+
+                <RadioButton android:id="@+id/q3_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/q3_option3"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/colorText"/>
 
 
-    </RadioGroup>
+            </RadioGroup>
 
-    <View
-        android:id="@+id/question_3_line"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/white" />
+            <View
+                android:id="@+id/question_3_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_One"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/colorText" />
 
 
-</LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -272,12 +287,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 android:text="@string/q4"
                 android:textSize="18sp"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/white"/>
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
+                android:textColor="@color/colorText"/>
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/question_4_choices"
@@ -289,44 +305,47 @@
                     android:id="@+id/q4_option1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q4_option1"
                     android:textSize="16sp"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q4_option2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q4_option2"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q4_option3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q4_option3"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
 
             </RadioGroup>
@@ -335,10 +354,10 @@
                 android:id="@+id/question_4_line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/white" />
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_Two"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/colorText" />
 
         </LinearLayout>
 
@@ -353,12 +372,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 android:text="@string/q5"
                 android:textSize="18sp"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/white"/>
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
+                android:textColor="@color/colorText"/>
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/question_5_choices"
@@ -370,44 +390,47 @@
                     android:id="@+id/q5_option1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q5_option1"
                     android:textSize="16sp"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q5_option2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q5_option2"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q5_option3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q5_option3"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
 
             </RadioGroup>
@@ -416,10 +439,10 @@
                 android:id="@+id/question_5_line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/white" />
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_Two"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/colorText" />
 
         </LinearLayout>
 
@@ -434,12 +457,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 android:text="@string/q6"
                 android:textSize="18sp"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/white"/>
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
+                android:textColor="@color/colorText"/>
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/question_6_choices"
@@ -451,44 +475,47 @@
                     android:id="@+id/q6_option1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q6_option1"
                     android:textSize="16sp"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q6_option2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q6_option2"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q6_option3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q6_option3"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
 
             </RadioGroup>
@@ -497,10 +524,10 @@
                 android:id="@+id/question_6_line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/white" />
+                android:layout_marginLeft="@dimen/layout_marginLeft_Two"
+                android:layout_marginRight="@dimen/layout_marginRight_Two"
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/colorText" />
 
         </LinearLayout>
 
@@ -516,12 +543,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 android:text="@string/q7"
                 android:textSize="18sp"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/white"/>
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                android:layout_marginBottom="@dimen/layout_marginBottom_one"
+                android:textColor="@color/colorText"/>
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/question_7_choices"
@@ -533,44 +561,47 @@
                     android:id="@+id/q7_option1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q7_option1"
                     android:textSize="16sp"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q7_option2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q7_option2"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
                 <RadioButton android:id="@+id/q7_option3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="@string/q7_option3"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
                     android:onClick="onRadioButtonClicked"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@color/colorText"/>
 
             </RadioGroup>
 
@@ -593,6 +624,7 @@
                 android:id="@+id/submitQuizButton"
                 android:layout_width="0.0dip"
                 android:layout_height="fill_parent"
+                android:textStyle="bold"
                 android:text="@string/submit"
                 android:onClick="submitQuiz"
                 android:layout_weight="1.0" />
@@ -601,6 +633,7 @@
                 android:id="@+id/deny"
                 android:layout_width="0.0dip"
                 android:layout_height="fill_parent"
+                android:textStyle="bold"
                 android:text="@string/try_again"
                 android:onClick="resetQuiz"
                 android:layout_weight="1.0" />

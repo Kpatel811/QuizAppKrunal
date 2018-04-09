@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="layout_marginLeft_One">16dp</dimen>
+    <dimen name="layout_marginLeft_Two">8dp</dimen>
+    <dimen name="layout_marginTop_One">16dp</dimen>
+    <dimen name="layout_marginTop_Two">8dp</dimen>
+    <dimen name="layout_marginRight_One">16dp</dimen>
+    <dimen name="layout_marginRight_Two">8dp</dimen>
+    <dimen name="layout_marginBottom_one">8dp</dimen>
+
+
+
+
+</resources>
