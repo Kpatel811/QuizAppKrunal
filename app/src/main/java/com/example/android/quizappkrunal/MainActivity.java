@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
         q1Field = (EditText) findViewById(R.id.q1_option1);
 
-        q1Field = (EditText) findViewById(R.id.q1_option1);
-
         q2_option1 = (CheckBox) findViewById(R.id.q2_option1);
         q2_option2 = (CheckBox)findViewById(R.id.q2_option2);
         q2_option3 = (CheckBox) findViewById(R.id.q2_option3);
